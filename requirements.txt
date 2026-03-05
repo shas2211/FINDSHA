@@ -6,4 +6,3 @@ chromadb
 PyMuPDF
 python-docx
 langchain-text-splitters
-gunicorn
