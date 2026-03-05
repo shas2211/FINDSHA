@@ -35,7 +35,7 @@ GROQ_API_KEY=gsk_your_key_here
 python app.py
 ```
 
-Visit: http://localhost:5000
+
 
 ---
 
