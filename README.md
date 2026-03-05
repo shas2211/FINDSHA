@@ -4,9 +4,9 @@ A RAG-powered document Q&A system. Upload any PDF, DOCX, or TXT file and ask que
 
 ## Stack
 - **Backend**: Python + Flask
-- **Embeddings**: sentence-transformers (all-MiniLM-L6-v2) — runs locally, free
-- **Vector DB**: ChromaDB — persistent, local
-- **LLM**: Groq API (LLaMA 3) — free tier
+- **Embeddings**: sentence-transformers (all-MiniLM-L6-v2)runs locally, free
+- **Vector DB**: ChromaDB persistent, local
+- **LLM**: Groq API (LLaMA 3)  free tier
 - **Frontend**: Vanilla HTML/CSS/JS (black & white aesthetic)
 
 ---
@@ -55,22 +55,6 @@ smart-doc-insights/
 ├── requirements.txt
 └── .env                    # Your API key (never commit this!)
 ```
-
----
-
-## 🌐 Deploying (Free)
-
-### Render.com (Recommended)
-1. Push to GitHub
-2. Create new Web Service on Render
-3. Set environment variable: `GROQ_API_KEY`
-4. Build command: `pip install -r requirements.txt`
-5. Start command: `gunicorn app:app`
-
-> Add `gunicorn` to requirements.txt for deployment.
-
-### Railway
-Same process — Railway auto-detects Flask apps.
 
 ---
 
