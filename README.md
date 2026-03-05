@@ -1,4 +1,4 @@
-# 📄 Smart Document Insights
+# 📄 FINDSHA : Smart Document Insights
 
 A RAG-powered document Q&A system. Upload any PDF, DOCX, or TXT file and ask questions about it using natural language.
 
