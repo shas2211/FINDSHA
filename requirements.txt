@@ -8,3 +8,4 @@ python-docx
 langchain-text-splitters==0.3.8
 langchain-core==0.3.51
 gunicorn
+pydantic<2.0
